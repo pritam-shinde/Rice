@@ -23,9 +23,9 @@ const Propositions = () => {
       <Box>
             <Grid container spacing={3}>
       {
-        Values.map((data) => 
+        Values.map((data) => (
           
-              <Grid item xs={12} md={6} lg={4}>
+              <Grid item xs={12} md={6} lg={4} key={data.id}>
                 <Box  mx={6}>              
                   <Card className={Styles.CardHeight}>                    
                     <CardContent>
@@ -40,7 +40,7 @@ const Propositions = () => {
                   </Card>
                 </Box>
               </Grid>
-          )
+        ))
       }
       </Grid>
       </Box>

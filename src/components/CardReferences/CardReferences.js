@@ -21,12 +21,12 @@ const CardReferences = () => {
             <Box>
                   <Grid container spacing={3}>
             {
-                Cards.map((data) => 
+                Cards.map((data) => (
                 
-                    <Grid item xs={12} md={4}>
+                    <Grid item xs={12} md={4} key={data.id}>
                       <Box  m={2}>
                     
-                        <Card sx={{ minHeight:520, maxHeight:700 }} >
+                        <Card sx={{ minHeight:520, maxHeight:700 }}>
                           <CardMedia
                             sx={{ height: 200 }}
                             image={Card1.src}
@@ -47,7 +47,7 @@ const CardReferences = () => {
                 
               
 
-                )
+                ))
             }
             </Grid>
             </Box>

@@ -33,8 +33,8 @@ const Faq = () => {
   return (
     <>
     {
-      Faqs.map((item) => 
-        <Accordion expanded={expanded === 'panel'+`${item.id}`} onChange={handleChange('panel'+`${item.id}`)}>
+      Faqs.map((item) => (
+        <Accordion expanded={expanded === 'panel'+`${item.id}`} onChange={handleChange('panel'+`${item.id}`)} key={item.id}>
               <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1bh-content">
                 <Typography variant="h6">{item.title}</Typography>
               </AccordionSummary>
@@ -47,7 +47,7 @@ const Faq = () => {
             </Accordion>
 
 
-      )
+      ))
 
     }
     </>
