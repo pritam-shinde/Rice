@@ -2,7 +2,8 @@ import Head from 'next/head'
 import { HomeSlider, Form, Associations, CardReferences, Propositions } from '../components/components'
 import { Typography, Container, Box, Grid } from '@mui/material'
 import Image from 'next/image'
-import Img1 from '../../public/images/img1.png'
+import Img1 from '../../public/images/img1.jpg'
+import Img2 from '../../public/images/img2.jpg'
 import Img3 from '../../public/images/img3.png'
 import Styles from '../styles/Home.module.css'
 
@@ -104,7 +105,7 @@ export default function Home() {
 
                     <Grid item xs={12} md={6}>
                       <Box>
-                        <Image src={Img1} className='img-fluid' alt="" />
+                        <Image src={Img2} className='img-fluid' alt="" />
                       </Box>
                     </Grid>
                   </Grid>
