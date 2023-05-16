@@ -7,11 +7,11 @@
     border-radius: 2rem !important;
 }
 
-@media screen and (min-device-width:1204px){
+/* @media screen and (min-device-width:1204px){
     .Space{
           padding-top: 6rem;
     }   
-}
+} */
 
 @media screen and (min-device-width:900px){    
     .CardHeight {
@@ -68,3 +68,16 @@
    .Dnone{
     display: none;
    }
+
+   
+.slider1 {
+    background-image: url('../components/HomeSlider/images/Banner1.jpg');
+}
+
+.slider2 {
+    background-image: url('../components/HomeSlider/images/Banner2.jpg');
+}
+
+.slider3 {
+    background-image: url('../components/HomeSlider/images/Banner3.jpg');
+}

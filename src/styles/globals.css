@@ -94,7 +94,9 @@ p,
 
 background-color: #ff000000 !important;
 box-shadow : none !important
-
-
 }
 
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap,4px);
+  background-color: white;
+}

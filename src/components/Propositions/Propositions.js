@@ -19,7 +19,7 @@ const Propositions = () => {
     <Container maxWidth='xxl'>
       <Grid container>            
       <Grid item xs={12} md={10} className='mx-auto' mt={2} mb={4}>
-      <Typography variant='h2' align='center' py={1} mb={2}>Value Propositions</Typography>
+      <Typography variant='h3' align='center' py={1} mb={2}>Value Propositions</Typography>
       <Box>
             <Grid container spacing={3}>
       {

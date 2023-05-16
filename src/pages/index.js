@@ -40,7 +40,7 @@ export default function Home() {
             <Grid container>
 
               <Grid item xs={12} md={10} className='mx-auto' mt={2}>
-                <Typography variant='h2' align='center' py={1}>Our Principles</Typography>
+                <Typography variant='h3' align='center' py={1}>Our Principles</Typography>
                 <Box p={3}>
                   <Grid container spacing={6}>
                     <Grid item xs={12} md={6}>
@@ -52,20 +52,20 @@ export default function Home() {
                       <Box className={Styles.Space}>
 
                         <Box mb={3}>
-                          <Typography variant="h3">We want to foster innovation</Typography>
+                          <Typography variant="h4">We want to foster innovation</Typography>
                           <Typography variant="para">Interdisciplinary teams are the key for
-                            your individual approaches</Typography>
+                            your individual approaches.</Typography>
                         </Box>
 
                         <Box mb={3}>
-                          <Typography variant="h3">We strive for continuous learning</Typography>
+                          <Typography variant="h4">We strive for continuous learning</Typography>
                           <Typography variant="para">We try to improve ourselves and our
-                            work with every step of the process</Typography>
+                            work with every step of the process.</Typography>
                         </Box>
 
                         <Box mb={3}>
-                          <Typography variant="h3">We place high value on enjoying our work</Typography>
-                          <Typography variant="para">We solve your challenges with passion</Typography>
+                          <Typography variant="h4">We place high value on enjoying our work</Typography>
+                          <Typography variant="para">We solve your challenges with passion.</Typography>
                         </Box>
 
                       </Box>
@@ -83,21 +83,21 @@ export default function Home() {
                       <Box className={Styles.Space}>
                       
                         <Box mb={3}>
-                          <Typography variant="h3">We are purpose-driven</Typography>
+                          <Typography variant="h4">We are purpose-driven</Typography>
                           <Typography variant="para">We develop business models that have a
-                            lasting, positive impact for all stakeholders</Typography>
+                            lasting, positive impact for all stakeholders.</Typography>
 
                         </Box>
                         <Box mb={3}>
-                          <Typography variant="h3">We are quality-oriented</Typography>
+                          <Typography variant="h4">We are quality-oriented</Typography>
                           <Typography variant="para">Providing high value for a client’s
-                            investment in our service</Typography>
+                            investment in our service.</Typography>
                         </Box>
 
                         <Box mb={3}>
-                          <Typography variant="h3">We value openness and transparency</Typography>
+                          <Typography variant="h4">We value openness and transparency</Typography>
                           <Typography variant="para">We openly communicate our
-                            capabilities and deliverables to you</Typography>
+                            capabilities and deliverables to you.</Typography>
                         </Box>
 
                       </Box>
@@ -130,7 +130,7 @@ export default function Home() {
                     </Grid>
                     <Grid item xs={12} lg={6}>
                       <Box>
-                        <Typography variant='h2'>Consulting Services</Typography>
+                        <Typography variant='h3'>Consulting Services</Typography>
                         <Typography variant='h4' py={1}>Service covers all aspects of the project lifecycle</Typography>
 
                             <ul style={{ listStyleType: 'none' }}>
