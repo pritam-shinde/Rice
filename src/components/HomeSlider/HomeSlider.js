@@ -102,7 +102,7 @@ const HomeSlider = () => {
                     {/* <span className={Styles.blueSpan}>Experienced</span> <br />
                     <span className={Styles.whiteSpan}>Service</span> */}
                   </Typography>
-                  <Typography className="text-white" variant='h3'>Invest in Solar Energy for a Brighter, More Sustainable Tomorrow.
+                  <Typography className="text-white" variant='h3'>Research Partnerships for Solar Advancement: Shaping a Sustainable World.
                   </Typography>
                 </Box>
               </Grid>
@@ -116,7 +116,7 @@ const HomeSlider = () => {
                     {/* <span className={Styles.blueSpan}>Child Dental</span> <br />
                     <span className={Styles.whiteSpan}>Benefit Scheme</span> */}
                   </Typography>
-                  <Typography className="text-white" variant='h3'>Invest in Solar Energy for a Brighter, More Sustainable Tomorrow.
+                  <Typography className="text-white" variant='h3'>Advancing Solar Technology: Joint Efforts for Cleaner Energy Solutions.
                   </Typography>
                 </Box>
               </Grid>

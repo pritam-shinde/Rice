@@ -18,8 +18,8 @@ const Footer = () => {
           <div className="row">
 
             <div className="col-md-4 mb-3">
-              <Image src={FooterLogo} width={150} height={80} />
-              <p className='mt-3'>RICE Renewables is offering Consulting Services to a Hong Kong based Project Developer to develop a 10 MWp Solar PV plant in South India. This is a complete Owner’s Engineer scope covering all aspects of Project Development.</p>
+              <Image src={FooterLogo} width={150} height={80} alt='footerLogo'/>
+              <p className='mt-3'>R I C E Renewables is a PV consultancy and knowledge disseminator/system integrator of PV / BIPV solutions in the Asian Solar market. Incorporated in Singapore in the year 2017, we work with leading component suppliers, architects, project developers, EPCs, institutions and government bodies We bridge the gap between stakeholders in the Solar PV market offering Technical and Commercial expertise and provide sustainable solutions for the World’s growing energy needs.</p>
             </div>
 
             <div className="col-md-4 mb-3">
@@ -32,7 +32,7 @@ const Footer = () => {
                 </li>
                 <li className='my-4 d-flex'>
                   <div><EmailIcon /></div>
-                  <div className={Styles.Margin}>ricesgp.com</div>
+                  <div className={Styles.Margin}><Link href="#" legacyBehavior><a className='text-white'>ricesgp.com</a></Link></div>
                 </li>
                 <li className='my-4 d-flex'>
                   <div><CallIcon /></div>
@@ -45,8 +45,8 @@ const Footer = () => {
               <h5 className='text-center'>Follow Us</h5>
               <ul className="list-unstyled d-flex justify-content-center mt-4">
                 <li className='px-4'><Link href="#" legacyBehavior><a className='text-white'><FacebookIcon /></a></Link> </li>
-                <li className='px-4'><Link href="" legacyBehavior><a className='text-white'><InstagramIcon /></a></Link></li>
-                <li className='px-4'><Link href="" legacyBehavior><a className='text-white'><TwitterIcon /></a></Link></li>
+                <li className='px-4'><Link href="#" legacyBehavior><a className='text-white'><InstagramIcon /></a></Link></li>
+                <li className='px-4'><Link href="#" legacyBehavior><a className='text-white'><TwitterIcon /></a></Link></li>
               </ul>
             </div>
 
