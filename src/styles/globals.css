@@ -100,3 +100,28 @@ box-shadow : none !important
   margin: 0 var(--swiper-pagination-bullet-horizontal-gap,4px);
   background-color: white;
 }
+
+a.text-white.underline {
+  text-decoration: none;
+}
+
+/*  */
+/* @keyframes expandCard {
+  from {
+    max-height: 520px;
+  }
+  to {
+    max-height: none;
+  }
+}
+
+.card-container {
+  min-height: 520px;
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.card-container.expanded {
+  animation: expandCard 0.3s ease-in-out;
+  animation-fill-mode: forwards;
+} */

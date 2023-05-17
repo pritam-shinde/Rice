@@ -32,7 +32,7 @@ const Footer = () => {
                 </li>
                 <li className='my-4 d-flex'>
                   <div><EmailIcon /></div>
-                  <div className={Styles.Margin}><Link href="#" legacyBehavior><a className='text-white'>ricesgp.com</a></Link></div>
+                  <div className={Styles.Margin}><Link href="#" legacyBehavior><a className='text-white underline'>ricesgp.com</a></Link></div>
                 </li>
                 <li className='my-4 d-flex'>
                   <div><CallIcon /></div>
