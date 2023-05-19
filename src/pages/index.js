@@ -42,7 +42,7 @@ export default function Home() {
             <Grid container>
 
               <Grid item xs={12} md={10} className='mx-auto' mt={2}>
-                <Typography variant='h2' align='center' py={1}>Our Principles</Typography>
+                <Typography variant='h3' align='center' py={1}>Our Principles</Typography>
                 <Box p={3}>
                   <Grid container spacing={6}>
                     <Grid item xs={12} md={6}>
@@ -132,7 +132,7 @@ export default function Home() {
                     </Grid>
                     <Grid item xs={12} lg={6}>
                       <Box>
-                        <Typography variant='h2'>Consulting Services</Typography>
+                        <Typography variant='h3'>Consulting Services</Typography>
                         <Typography variant='h4' py={1}>Service covers all aspects of the project lifecycle</Typography>
 
                             <ul style={{ listStyleType: 'none' }}>
