@@ -22,7 +22,9 @@ const Services = [
   { id: '8', text: 'Financial Modeling' },
   { id: '9', text: 'Vendor Qualification and Plant Auditing' },
 ]
-export default function Home() {
+
+
+export default function Home() {  
   return (
     <>
       <Head>
@@ -52,20 +54,20 @@ export default function Home() {
                       <Box className={Styles.Space}>
 
                         <Box mb={3}>
-                          <Typography variant="h3">We want to foster innovation</Typography>
+                          <Typography variant="h4">We want to foster innovation</Typography>
                           <Typography variant="para">Interdisciplinary teams are the key for
-                            your individual approaches</Typography>
+                            your individual approaches.</Typography>
                         </Box>
 
                         <Box mb={3}>
-                          <Typography variant="h3">We strive for continuous learning</Typography>
+                          <Typography variant="h4">We strive for continuous learning</Typography>
                           <Typography variant="para">We try to improve ourselves and our
-                            work with every step of the process</Typography>
+                            work with every step of the process.</Typography>
                         </Box>
 
                         <Box mb={3}>
-                          <Typography variant="h3">We place high value on enjoying our work</Typography>
-                          <Typography variant="para">We solve your challenges with passion</Typography>
+                          <Typography variant="h4">We place high value on enjoying our work</Typography>
+                          <Typography variant="para">We solve your challenges with passion.</Typography>
                         </Box>
 
                       </Box>
@@ -83,21 +85,21 @@ export default function Home() {
                       <Box className={Styles.Space}>
                       
                         <Box mb={3}>
-                          <Typography variant="h3">We are purpose-driven</Typography>
+                          <Typography variant="h4">We are purpose-driven</Typography>
                           <Typography variant="para">We develop business models that have a
-                            lasting, positive impact for all stakeholders</Typography>
+                            lasting, positive impact for all stakeholders.</Typography>
 
                         </Box>
                         <Box mb={3}>
-                          <Typography variant="h3">We are quality-oriented</Typography>
+                          <Typography variant="h4">We are quality-oriented</Typography>
                           <Typography variant="para">Providing high value for a client’s
-                            investment in our service</Typography>
+                            investment in our service.</Typography>
                         </Box>
 
                         <Box mb={3}>
-                          <Typography variant="h3">We value openness and transparency</Typography>
+                          <Typography variant="h4">We value openness and transparency</Typography>
                           <Typography variant="para">We openly communicate our
-                            capabilities and deliverables to you</Typography>
+                            capabilities and deliverables to you.</Typography>
                         </Box>
 
                       </Box>

@@ -21,12 +21,12 @@
   --Dark-gray: #2F2F2F;
   --light-gray:#EFEAEA;
   --LineHeight : 1.5rem;  
-  --h1: 4rem;
-  --h2: 2.4rem;
+  --h1: 3rem;
+  --h2: 2.1rem;
   --h2-mob: 2.75rem;
   --h3: 1.8rem;
   --h4: 1.6rem;
-  --h5: 1.3rem !important;
+  --h5: 1.1rem !important;
   --h6: 1rem;
   --para-font-family: 'Roboto', sans-serif;
   --heading-font-family: 'Poppins', sans-serif;
@@ -94,7 +94,38 @@ p,
 
 background-color: #ff000000 !important;
 box-shadow : none !important
+}
 
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap,4px);
+  background-color: #fff;
+  font-size: 40px;
+  height: 12px;
+  width: 12px;
 
 }
 
+a.text-white.underline {
+  text-decoration: none;
+}
+
+/*  */
+/* @keyframes expandCard {
+  from {
+    max-height: 520px;
+  }
+  to {
+    max-height: none;
+  }
+}
+
+.card-container {
+  min-height: 520px;
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.card-container.expanded {
+  animation: expandCard 0.3s ease-in-out;
+  animation-fill-mode: forwards;
+} */

@@ -45,16 +45,16 @@ const Header = () => {
               <a className="nav-link">About Us</a>
             </Link>
           </li>
-          <li className={router.pathname == "/blog" ? `active nav-item ${Styles.navmenuItem}` : `nav-item ${Styles.navmenuItem}`}>
-            <Link href="/blog" legacyBehavior>
-              <a className="nav-link">Blog</a>
-            </Link>
-          </li>
-          <li className={router.pathname == "/faq" ? `active nav-item ${Styles.navmenuItem}` : `nav-item ${Styles.navmenuItem}`}>
+        {/* <li className={router.pathname == "/blog" ? `active nav-item ${Styles.navmenuItem}` : `nav-item ${Styles.navmenuItem}`}>
+          <Link href="/blog" legacyBehavior>
+            <a className="nav-link">Blog</a>
+          </Link>
+        </li> */}
+         {/*  <li className={router.pathname == "/faq" ? `active nav-item ${Styles.navmenuItem}` : `nav-item ${Styles.navmenuItem}`}>
             <Link href="/faq" legacyBehavior>
               <a className="nav-link">FAQs</a>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
