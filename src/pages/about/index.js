@@ -31,10 +31,8 @@ const About = () => {
               </Box>
             </Grid>
             <Grid item xs={12} md={10} className='mx-auto' mt={2}>
-
-              <Box px={2} className="text-center">
-
-                <Image src={AboutImage} className='img-fluid' alt='aboutImg' />
+            <Box px={2} className="text-center">
+                <Image src={AboutImage} className='img-fluid' alt='aboutImg'/>
               </Box>
             </Grid>
           </Grid>
