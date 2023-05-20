@@ -24,10 +24,13 @@ const About = () => {
           <Grid container>
             <Grid item xs={12} md={10} className='mx-auto' mt={2}>
               <Typography variant='h2' align='center' py={4}>About Us</Typography>
-              <Box mb={6}>
+              <Box mb={3}>
                 <Typography variant="para">R I C E Renewables is a PV consultancy and knowledge disseminator/system integrator of PV / BIPV solutions in the Asian Solar market.
                   Incorporated in Singapore in the year 2017, we work with leading component suppliers, architects, project developers, EPCs, institutions and government bodies
                   We bridge the gap between stakeholders in the Solar PV market offering Technical and Commercial expertise and provide sustainable solutions for the World’s growing energy needs. </Typography>
+              </Box>
+              <Box>
+              <Typography variant="h6">We are a BCA Registered Contractor for Solar PV Integration – ME03 L1 </Typography>
               </Box>
             </Grid>
             <Grid item xs={12} md={10} className='mx-auto' mt={2}>

@@ -19,7 +19,7 @@ const Footer = () => {
 
             <div className="col-md-4 mb-3">
               <Image src={FooterLogo} width={150} height={80} alt='footerLogo'/>
-              <p className='mt-3'>R I C E Renewables is a PV consultancy and knowledge disseminator/system integrator of PV / BIPV solutions in the Asian Solar market. Incorporated in Singapore in the year 2017, we work with leading component suppliers, architects, project developers, EPCs, institutions and government bodies We bridge the gap between stakeholders in the Solar PV market offering Technical and Commercial expertise and provide sustainable solutions for the World’s growing energy needs.</p>
+              <p className='mt-3'>R I C E Renewables is a PV consultancy and knowledge disseminator/system integrator of PV / BIPV solutions in the Asian Solar market. Incorporated in Singapore in the year 2017, we work with leading component suppliers, architects, project developers, EPCs, institutions and government bodies .</p>
             </div>
 
             <div className="col-md-4 mb-3">
@@ -32,7 +32,8 @@ const Footer = () => {
                 </li>
                 <li className='my-4 d-flex'>
                   <div><EmailIcon /></div>
-                  <div className={Styles.Margin}><Link href="#" legacyBehavior><a className='text-white underline'>ricesgp.com</a></Link></div>
+                  <div className={Styles.Margin}><Link href="#" legacyBehavior><a className='text-white underline'>info@ricesgp.com
+                  </a></Link></div>
                 </li>
                 <li className='my-4 d-flex'>
                   <div><CallIcon /></div>
