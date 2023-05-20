@@ -137,9 +137,9 @@ export default function Home() {
 
                             <ul style={{ listStyleType: 'none' }}>
                               {Services.map((item) => (
-                                <div className='d-flex'>
+                                <div className='d-flex' key={item.id}>
                                 <li> <CheckCircleOutlineIcon style={{ color: `var(--Coper)`, marginRight: '0.5rem' }} /></li>
-                                <li key={item.id} className='p-1'>  {item.text}</li>
+                                <li  className='p-1'>  {item.text}</li>
                                 </div>
                                
                               ))}
