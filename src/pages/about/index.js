@@ -4,7 +4,7 @@ import { CommanBanner } from '@/components/components'
 import AboutBanner from './image/About.jpg'
 import { Container, Grid, Typography, Box } from '@mui/material'
 import Image from 'next/image'
-import AboutImage from '../about/image/About image.png'
+import AboutImage from '../about/image/New_research.png'
 
 
 const About = () => {
@@ -20,7 +20,7 @@ const About = () => {
 
       <CommanBanner image={AboutBanner} title="About Us" />
       <main>
-        <Container maxWidth="xxl" style={{ backgroundColor: '#D9D9D9' }}>
+        <Container maxWidth="xxl" style={{ backgroundColor: '#fff' }}>
           <Grid container>
             <Grid item xs={12} md={10} className='mx-auto' mt={2}>
               <Typography variant='h2' align='center' py={4}>About Us</Typography>
