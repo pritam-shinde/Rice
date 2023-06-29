@@ -5,7 +5,8 @@ import AboutBanner from './image/About.jpg'
 import { Container, Grid, Typography, Box } from '@mui/material'
 import Image from 'next/image'
 import AboutImage from '../about/image/New_research.png'
-
+import Img1 from "../about/image/New_reasearch_01.png"
+import Img2 from "../about/image/New_reasearch_02.png"
 
 const About = () => {
   return (
@@ -17,7 +18,6 @@ const About = () => {
         <meta name="author" content="John Doe" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-
       <CommanBanner image={AboutBanner} title="About Us" />
       <main>
         <Container maxWidth="xxl" style={{ backgroundColor: '#fff' }}>
@@ -30,20 +30,22 @@ const About = () => {
                   We bridge the gap between stakeholders in the Solar PV market offering Technical and Commercial expertise and provide sustainable solutions for the World’s growing energy needs. </Typography>
               </Box>
               <Box>
-              <Typography variant="h6">We are a BCA Registered Contractor for Solar PV Integration – ME03 L1 </Typography>
+                <Typography variant="h6">We are a BCA Registered Contractor for Solar PV Integration – ME03 L1 </Typography>
               </Box>
             </Grid>
-            <Grid item xs={12} md={10} className='mx-auto' mt={2}>
-            <Box px={2} className="text-center">
-                <Image src={AboutImage} className='img-fluid' alt='aboutImg'/>
+            <Grid item xs={12} md={10} className="mx-auto about-img" mt={2}>
+              <Box px={2} className="text-center image-container">
+                <Image src={AboutImage} className="img-fluid img-md" alt="aboutImg" />
+                <Image src={Img1} className="img-fluid image" alt="aboutImg" />
+                <Image src={Img2} className="img-fluid image" alt="aboutImg2" />
               </Box>
             </Grid>
           </Grid>
         </Container>
       </main>
-
     </>
   )
 }
 
 export default About
+ 

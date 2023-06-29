@@ -15,28 +15,23 @@ function Cards({ title, content}) {
             </Typography>
             <Box className={Styles.BorderLine} my={2}></Box>
             <Typography variant="para" color="text.secondary">
-          
             {showMore ? <p>  {content.slice(0, 170)}{content.slice(170)}</p> : content.slice(0, 170)}
-            
             </Typography>
             {
               content.length > 170 ?  <button className='btn btn-sm readMore' style={{color: '#E2741A'}} onClick={() => setShowMore(!showMore)}>
               {showMore ? 'Read Less' : 'Read More'}
             </button> :null
             }
-           
           </CardContent>
         </Card>
       </Box>
     </Grid>
-
   );
 }
 
 function CardSection({ Values }) {
   return (
     <section>
-
       <Container maxWidth='xxl'>
         <Grid container>
           <Grid item xs={12} md={10} className='mx-auto' mt={2} mb={4}>
@@ -53,7 +48,6 @@ function CardSection({ Values }) {
         </Grid>
       </Container>
     </section>
-
   );
 }
 

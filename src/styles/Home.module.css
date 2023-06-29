@@ -70,7 +70,6 @@
     display: none;
 }
 
-
 .slider1 {
     background-image: url('../components/HomeSlider/images/rice-banner1.jpg');
 }
@@ -100,11 +99,10 @@
     }
 }
 
-
 @media only screen and (min-width: 1580px) {
     .slider1 {
-       background-size: cover;
-       background-repeat: no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .slider2 {
