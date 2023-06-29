@@ -28,15 +28,17 @@ const PersonalizedSupport = () => {
                           <Grid item xs={12} sm={6} lg={4} key={data.id}>
                             <Box m={2}>
                               <Card sx={{ minHeight: 520, maxHeight: 700 }}>
+                                <div className='d-flex justify-content-around align-items-center'>     
                                 <CardMedia
-                                  sx={{ height: 200 }}
+                                  sx={{ height: 120 ,width:120 }}
                                   image={data.image.src}
                                   title="green iguana"
-                                />
-                                <CardContent>
+                                   />
                                   <Typography variant="h5">
                                     {data.title}
                                   </Typography>
+                                  </div>
+                                <CardContent>
                                   <Typography variant="para" color="text.secondary">
                                     {data.description}
                                   </Typography>

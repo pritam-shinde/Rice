@@ -86,16 +86,19 @@
     .slider1 {
         background-image: url('../components/HomeSlider/images/mobSlider1.jpg');
         background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .slider2 {
         background-image: url('../components/HomeSlider/images/mobSlider2.jpg');
         background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .slider3 {
         background-image: url('../components/HomeSlider/images/mobSlider3.jpg');
         background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
