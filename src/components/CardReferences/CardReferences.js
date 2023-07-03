@@ -19,8 +19,8 @@ const CardReferences = () => {
   return (
     <>
       <section>
-        <Container maxWidth='xxl'>
-          <Grid container>
+        <Container maxWidth='xxl' className="border m-2 mx-auto">
+          <Grid container spacing={2}>
             <Grid item xs={12} md={10} className='mx-auto' mt={2}>
               <Typography variant='h3' align='center' py={1}>Project References</Typography>
               <Box>

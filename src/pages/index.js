@@ -8,6 +8,7 @@ import Img3 from '../../public/images/img3.png'
 import Styles from '../styles/Home.module.css'
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import PersonalizedSupport from '@/components/PersonalisedSupport/PersonalizedSupport'
+import SectionWithImage from '@/components/SectionWithImage'
 
 const Services = [
   { id: '1', text: 'Techno-Commercial feasibility study' },
@@ -100,6 +101,7 @@ export default function Home() {
           </Container>
         </section>
         <Propositions />
+        <SectionWithImage/>     
         {/* <PersonalizedSupport/> */}
         <section style={{ backgroundColor: `var(--light-gray)` }}>
           <Container maxWidth='xxl'>
