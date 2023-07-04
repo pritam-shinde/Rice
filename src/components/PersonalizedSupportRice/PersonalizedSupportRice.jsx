@@ -5,7 +5,7 @@ import Img1 from "../../../public/images/Design stage 500 x 200.png";
 import Img2 from "../../../public/images/Energy study  500 x 200.png";
 import Img3 from "../../../public/images/Technical services  500 x 200.png"
 import SolarBar  from "../../../public/images/Panel_Roof.jpg"
- 
+
  const Cards = [
   { id: '1', title: 'Design Stage', description: ' Glass composition parameters, aesthetically appealing glass module design, ultra-realistic simulation of cells, quick-prototyping, ROI calculation.', image: Img1 },
   { id: '2', title: 'Energy Study', description: 'Energy  performance study, performance target evaluation, comprehensive study to reach  NZEB standards.', image: Img2 },
@@ -17,13 +17,13 @@ const PersonalizedSupportRice = () => {
         <Container maxWidth='xxl' className="m-2 mx-auto ">
           <Grid container spacing={2}>
             <Grid item xs={12} md={10} className='mx-auto' mt={2}>
-              <Typography variant='h2' align='center' py={1}>Personalized Support</Typography>
+              <Typography variant='h3' align='center' py={1}>Personalized Support</Typography>
               <Box >
-                <Grid container spacing={3} >
+                <Grid container spacing={2} >
                   {
                     Cards.map((data) => (
                       <Grid item xs={12} sm={6} lg={4} key={data.id} className="d-flex justify-content-center align-items-center">
-                        <Box m={2}>
+                        <Box m={1}>
                           <Card sx={{ minHeight: 320, maxHeight: 500 ,width:280 }}>
                              <CardMedia
                               sx={{ height: 120 ,borderRadius: '5px'  }}
@@ -47,8 +47,8 @@ const PersonalizedSupportRice = () => {
                 </Grid>
               </Box>
             </Grid>
-                <Grid item xs={12} md={10} className='mx-auto' mt={2}>
-               <Box p={3}>
+                <Grid item xs={12} md={10} className='mx-auto' mt={1}>
+               <Box p={2}>
                  <Grid container spacing={6}>
                    <Grid item xs={12} md={6}>
                      <Box>
