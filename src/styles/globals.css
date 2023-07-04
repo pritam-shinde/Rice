@@ -127,67 +127,12 @@ a.text-white.underline {
     display: none;
   }
 }
-/* personal support */
-    /* .cardContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-  }
 
-  @media (max-width: 767px) {
-    .cardContainer {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-    .card {
-    margin-bottom: 20px;   
-  }
-    
-
-  .card {
-    background: white;
-    border-radius: 4px;
-    padding: 20px;
-    text-align: center;
-  }
-
-  .left-section{
-    display: flex;
-    flex-direction: column;
-  }
-  /*  */
-
-  .card {
-    /* Add any necessary styling for the card container */
-  }
-
-  .cardContent {
-    display: flex;
-    align-items: center;
-  }
-
-  .imageContainer {
-    margin-right: 8px;
-    /* Add any necessary styling for the image container */
-  }
-
-  .cardImage {
-    /* Add any necessary styling for the image */
-  }
-
-  .textContainer {
-    width:400px; 
-    height:100px;
-  } */
-
-/*  */
 .card-container {
   display: flex;
   flex-direction: column;
-  margin-left: 20px; /* Add margin to the left side of the container */
-  margin-right: 20px; /* Add margin to the right side of the container */
+  margin-left: 20px; 
+  margin-right: 20px;  
 }
 
 .card {
@@ -222,8 +167,56 @@ a.text-white.underline {
   margin-bottom: 0;
 }
 
+.cardContent {
+  display: flex;
+  align-items: center;
+}
 
-/*  */
+.imageContainer {
+  margin-right: 8px;
+  
+}
+
+.textContainer {
+  width:400px; 
+  height:100px;
+}  
+
+
+/* personal support */
+    /* .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  @media (max-width: 767px) {
+    .cardContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+    .card {
+    margin-bottom: 20px;   
+  }
+    
+
+  .card {
+    background: white;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .left-section{
+    display: flex;
+    flex-direction: column;
+  }
+  /*  */
+
+
+ 
 /* @keyframes expandCard {
   from {
     max-height: 520px;
