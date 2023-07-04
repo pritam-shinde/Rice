@@ -1,17 +1,17 @@
-import { Box, Card, CardContent, CardMedia, Container, Grid, Typography } from '@mui/material';
+ import { Box, Card, CardContent, CardMedia, Container, Grid, Typography } from '@mui/material';
 import Image from 'next/image';
 import React from 'react';
-import Img1 from "../../public/images/Design stage 500 x 200.png";
-import Img2 from "../../public/images/Energy study  500 x 200.png";
-import Img3 from "../../public/images/Technical services  500 x 200.png"
-import SolarBar  from "../../public/images/Panel_Roof.jpg"
-
+import Img1 from "../../../public/images/Design stage 500 x 200.png";
+import Img2 from "../../../public/images/Energy study  500 x 200.png";
+import Img3 from "../../../public/images/Technical services  500 x 200.png"
+import SolarBar  from "../../../public/images/Panel_Roof.jpg"
+ 
  const Cards = [
   { id: '1', title: 'Design Stage', description: ' Glass composition parameters, aesthetically appealing glass module design, ultra-realistic simulation of cells, quick-prototyping, ROI calculation.', image: Img1 },
   { id: '2', title: 'Energy Study', description: 'Energy  performance study, performance target evaluation, comprehensive study to reach  NZEB standards.', image: Img2 },
   { id: '3', title: 'Technical Services', description: 'Facade integration, full system design, installation supervision, commisioning and monitoring.', image: Img3 },
 ]
-const SectionWithImage = () => {
+const PersonalizedSupportRice = () => {
   return (
     <section>
         <Container maxWidth='xxl' className="m-2 mx-auto ">
@@ -80,37 +80,4 @@ const SectionWithImage = () => {
   );
 };
 
-export default SectionWithImage;
-
-
- {/* <Grid item xs={12} md={10} className='mx-auto' mt={2}>
-      <Typography variant='h3' align='center' py={1}>
-        Personalized Support
-      </Typography>
-      <Box>
-        <Grid container spacing={3}>
-          {Cards.map((data) => (
-            <Grid item xs={12} sm={6} lg={4} key={data.id}>
-              <Box m={2}>
-                <Card sx={{ display: 'flex', flexDirection: 'row' }}>
-                  <CardMedia
-                    sx={{ width: 200, minWidth: 200, minHeight:200 ,maxHeight: 250, objectFit: 'cover' }}
-                    component="img"
-                    image={data.image.src}
-                    alt="Card Image"
-                  />
-                  <CardContent>
-                    <Typography variant="h5" component="div">
-                      {data.title}
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      {data.description}
-                    </Typography>
-                  </CardContent>
-                </Card>
-              </Box>
-            </Grid>
-          ))}
-        </Grid>
-      </Box>
-    </Grid> */}
+export default PersonalizedSupportRice

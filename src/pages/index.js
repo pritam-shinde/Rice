@@ -7,9 +7,8 @@ import Img2 from '../../public/images/img2.jpg'
 import Img3 from '../../public/images/img3.png'
 import Styles from '../styles/Home.module.css'
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
-import PersonalizedSupport from '@/components/PersonalisedSupport/PersonalizedSupport'
-import SectionWithImage from '@/components/SectionWithImage'
-
+import PersonalizedSupportRice from '@/components/PersonalizedSupportRice/PersonalizedSupportRice'
+ 
 const Services = [
   { id: '1', text: 'Techno-Commercial feasibility study' },
   { id: '2', text: 'Due diligence including technical, commercial and environmental study' },
@@ -101,8 +100,7 @@ export default function Home() {
           </Container>
         </section>
         <Propositions />
-        <SectionWithImage/>     
-        {/* <PersonalizedSupport/> */}
+        <PersonalizedSupportRice/>
         <section style={{ backgroundColor: `var(--light-gray)` }}>
           <Container maxWidth='xxl'>
             <Grid container>
