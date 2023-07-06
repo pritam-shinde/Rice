@@ -13,10 +13,10 @@ const About = () => {
     <>
       <Head>
         <meta charset="UTF-8" />
-        <meta name="description" content="Free Web tutorials" />
-        <meta name="keywords" content="HTML, CSS, JavaScript" />
-        <meta name="author" content="John Doe" />
+        <title>  About Us | Rice Renewables</title>
+        <meta name="description" content=" Rice Renewables: PV consultancy & system integrator in Asian solar market. Technical & commercial expertise. Sustainable solutions for global energy needs." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="canonical" href="/" />
       </Head>
       <CommanBanner image={AboutBanner} title="About Us" />
       <main>

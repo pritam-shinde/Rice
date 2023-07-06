@@ -25,12 +25,11 @@ export default function Home() {
     <>
       <Head>
         <meta charset="UTF-8" />
-        <title>home page</title>
-        <meta name="description" content="home" />
+        <title> Advance Solar Technology  Singapore - Rice Renewables</title>
+        <meta name="description" content="Rice Renewables: Asian solar market leader. Market study, consulting, project dev. Complete solar market understanding." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="canonical" href="/" />
       </Head>
-
       <main>
         <HomeSlider />
         <section>
